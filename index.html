@@ -1,47 +1,138 @@
+
+<!DOCTYPE html>
 <html>
-  <head>
-    <script>
-      alert("Are you sure");
-
-      prompt("Sure?");
-
-      Confirm("Yes");
-    </script>
+<head>
     <title>My Teaching Academy</title>
-  </head>
-  <body style="background-color: lightblue;"
+    <style>
+        body {
+            background: linear-gradient(to right, #e0f7fa, #fff3e0);
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-    <center>
-      <img src="Federal Board.png" width="500px" alt="My Teaching Academy" />
-      <h1>My Teaching Academy</h1>
-      <h3>Let's Learn</h3>
-    </center>
-    <h3 style="color: blue">Subjects We Teach</h3>
-    <ul style="color: blue">
-      <li>English</li>
-      <li>Urdu</li>
-      <li>Chemistry</li>
-       
-    </ul>
+        header {
+            text-align: center;
+            padding: 30px;
+            background-color: #0288d1;
+            color: white;
+        }
 
-    <h3>Fee Structure</h3>
-    <p>
-      We take fee in advance. Discount is only offered on
-      <b>Full Fee</b> payment.
-    </p>
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
 
-    <h3>Options of Installments</h3>
-<p><b>A maximum of 4 installments can be arranged on monthly basis:</b></p>
-    <ol>
-      <li>First Installment is 40%</li>
-      <li>Second Installment is 20%</li>
-      <li>Third Installment is 20%</li>
-      <li>Fourth Installment is 20%</li>
-    </ol>
-      <p><b>We don't have any refund 
-        policy for more information click on the button to visit our website  </b></p>
+        header h2 {
+            font-size: 1.5em;
+            color: #ffeb3b;
+        }
 
-       <a href="https://www.fbise.edu.pk/" target="blank">
-<button>Click on the Button to Visit Our Website</button></a>
-  </body>
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+            width: 500px;
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background-color: #ffffffcc;
+            border-radius: 10px;
+        }
+
+        ol, ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+
+        .note {
+            background-color: #ffe0b2;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .fees {
+            background-color: #f3e5f5;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .link-section {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .link-section input {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .link-section input:hover {
+            background-color: #388e3c;
+        }
+    </style>
+    <script>
+        alert("Welcome to My Teaching Academy!");
+        prompt("Enter your name...");
+        confirm("Are you sure you want to continue?");
+    </script>
+</head>
+<body>
+
+    <header>
+        <h1>My Teaching Academy</h1>
+        <h2>Let's Learn!!!</h2>
+    </header>
+
+    <img src="sigma.png" alt="My Teaching Academy">
+
+    <div class="content">
+        <p><strong>Subjects we offer are:</strong></p>
+        <ol>
+            <li>English</li>
+            <li>Islamiat</li>
+            <li>Urdu</li>
+            <li>Math</li>
+            <li>Quranic Studies</li>
+        </ol>
+
+        <div class="note">
+            Note: We take fees in advance!!<br>
+            <small>We have no refund policy.</small>
+        </div>
+
+        <div class="fees">
+            <ul>
+                <li>First child fee is 300 SR</li>
+                <li>Second child fee is 200 SR</li>
+                <li>Third child fee is 150 SR</li>
+            </ul>
+        </div>
+
+        <div class="link-section">
+            <p><strong>Link to our website:</strong></p>
+            <a href="https://m47405384-del.github.io/My-Teaching-Academy/" target="_blank">
+                <input type="button" value="Visit Website">
+            </a>
+        </div>
+    </div>
+
+</body>
 </html>
